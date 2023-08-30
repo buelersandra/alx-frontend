@@ -13,7 +13,7 @@ const [email, setEmail] = useState("");
     e.preventDefault();
     try {
       //ancient-headland-44729-521a14483af1.herokuapp.com
-      let res = await fetch("http://ancient-headland-44729-521a14483af1.herokuapp.com/infoms/v1/login",
+      let res = await fetch("https://ancient-headland-44729-521a14483af1.herokuapp.com/infoms/v1/login",
        {
           method: "POST",
           headers: {

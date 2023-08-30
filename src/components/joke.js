@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 const callRestApi = async () => {
     const token = "Bearer "+localStorage.getItem("token");
     console.log(token);
-    let response = await fetch("http://ancient-headland-44729-521a14483af1.herokuapp.com/infoms/v1/jokes",
+    let response = await fetch("https://ancient-headland-44729-521a14483af1.herokuapp.com/infoms/v1/jokes",
     {
         method: "GET",
         headers: {

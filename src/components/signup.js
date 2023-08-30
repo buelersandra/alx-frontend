@@ -13,7 +13,7 @@ function SignUp() {
     try {
      
       //ancient-headland-44729-521a14483af1.herokuapp.com
-      let res = await fetch("ancient-headland-44729-521a14483af1.herokuapp.com/infoms/v1/register", {
+      let res = await fetch("https://ancient-headland-44729-521a14483af1.herokuapp.com/infoms/v1/register", {
         method: "POST",
         headers: {
           'accept': '*/*',
