@@ -1,0 +1,9 @@
+.img-with-text {
+    text-align: justify;
+    width: 40vmin;
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
